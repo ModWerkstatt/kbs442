@@ -1,0 +1,86 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = {
+			3.05, 1.21, 2.6, 
+		},
+		bbMin = {
+			-3.05, -1.21, 0, 
+		},
+		
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+		
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{						
+						materials = { "vehicle/waggon/Kbs442/Rlmmso56.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rad_lod0.msh",
+						name = "radsatz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,	
+		},
+        {
+			node = {
+				children = {
+					{						
+						materials = { "vehicle/waggon/Kbs442/Rlmmso56.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rad_lod0.msh",
+						name = "radsatz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 500,
+			
+		},
+        {
+			node = {
+				children = {
+					{						
+						materials = { "vehicle/waggon/Kbs442/Rlmmso56.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rad_lod0.msh",
+						name = "radsatz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1200,
+			
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1958,
+			yearTo = 0,
+			
+		},
+		cost = {
+			price = 500,
+			
+		},
+		
+	},
+	version = 1,
+	
+}
+end

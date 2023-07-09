@@ -1,0 +1,336 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 6.87535, 1.5543934106827, 3.9691610336304, },
+		bbMin = { -6.80142, -1.5543934106827, -1.4061318635941, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 4.7661581039429, 1.5543934106827, 2.6876463890076, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						_meshId = 1,
+						materials = { "vehicle/waggon/Kbs442/Kbs442_dbag.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rumpf_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 2,
+						materials = { "vehicle/waggon/Kbs442/Kbs442_dbag.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rad_lod0.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.469196, 1, },
+					},
+					{
+						_meshId = 3,
+						materials = { "vehicle/waggon/Kbs442/Kbs442_dbag.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rad_lod0.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0, 0.469196, 1, },
+					},
+					{
+						_meshId = 4,
+						materials = { "vehicle/waggon/Kbs442/Kbs442_dbag.mtl", },
+						mesh = "vehicle/waggon/Kbs442/halter_lod0.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 5,
+						materials = { "vehicle/waggon/Kbs442/Kbs442_dbag.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rungen_lod0.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+    					_meshId = 6,
+						materials = { "vehicle/waggon/zugschluss.mtl", },
+    					mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+                        name = "zugschluss_de_front",
+    					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.23271, -1.22549, 1.40, 1,	},
+    				},
+                    {
+    					_meshId = 7,
+						materials = { "vehicle/waggon/zugschluss.mtl", },
+    					mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+                        name = "zugschluss_de_front",
+    					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.23271, 1.22549, 1.40, 1,	},
+    				},
+                    {
+    					_meshId = 8,
+						materials = { "vehicle/waggon/zugschluss.mtl", },
+    					mesh = "vehicle/waggon/zugschluss/zugschluss_de_back.msh",
+                        name = "zugschluss_de_front",
+    					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.3147, -1.22549, 1.40, 1,	},
+    				},
+                    {
+    					_meshId = 9,
+						materials = { "vehicle/waggon/zugschluss.mtl", },
+    					mesh = "vehicle/waggon/zugschluss/zugschluss_de_back.msh",
+                        name = "zugschluss_de_front",
+    					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.3147, 1.22549, 1.40, 1,	},
+    				},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+        {
+			node = {
+				children = {
+					{
+						_meshId = 1,
+						materials = { "vehicle/waggon/Kbs442/Kbs442_dbag.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rumpf_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 2,
+						materials = { "vehicle/waggon/Kbs442/Kbs442_dbag.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rad_lod1.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.469196, 1, },
+					},
+					{
+						_meshId = 3,
+						materials = { "vehicle/waggon/Kbs442/Kbs442_dbag.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rad_lod1.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0, 0.469196, 1, },
+					},
+					{
+						_meshId = 4,
+						materials = { "vehicle/waggon/Kbs442/Kbs442_dbag.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rungen_lod1.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 400,
+		},
+        {
+			node = {
+				children = {
+					{
+						_meshId = 1,
+						materials = { "vehicle/waggon/Kbs442/Kbs442_dbag.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rumpf_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 2,
+						materials = { "vehicle/waggon/Kbs442/Kbs442_dbag.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rad_lod2.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.469196, 1, },
+					},
+					{
+						_meshId = 3,
+						materials = { "vehicle/waggon/Kbs442/Kbs442_dbag.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rad_lod2.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0, 0.469196, 1, },
+					},
+					{
+						_meshId = 5,
+						materials = { "vehicle/waggon/Kbs442/Kbs442_dbag.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rungen_lod2.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 400,
+			visibleTo = 1500,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1994,
+			yearTo = 2020,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("Kbs442_dbag_name"),
+            description = _("Kbs442_Kls442_dbag_desc"),
+		},
+		maintenance = {
+			runningCosts = -1,
+			lifespan = 29220
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/waggon/Kbs442/rad_lod0.msh", },
+                    frontForwardParts = { },
+                    backForwardParts = { 6, 7, },
+                    frontBackwardParts = { },
+                    backBackwardParts = { 8, 9, },
+                    innerForwardParts = { },
+                    innerBackwardParts = { }
+				},
+                {
+					axles = { "vehicle/waggon/Kbs442/rad_lod1.msh", },
+                },
+                {
+					axles = { "vehicle/waggon/Kbs442/rad_lod2.msh", },
+                },
+			},
+			engines = { },
+			soundSet = {
+				name = "waggon_freight_old",
+			},
+			topSpeed = 27.777777778,
+			weight = 12.7,
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartments = {
+				{
+					{
+						{
+							capacity = 48,
+							cargoBay = {
+								bbMax = { 6.24, 1.4, 3.25, },
+								bbMin = { -6.16, -1.4, 1.2, },
+								cargoFormat = "",
+								childId = 1,
+								gridSize = { 5 ,1 },
+								sizePolicy = "BEST_FIT",
+								type = "DISCRETE",
+							},
+							type = "LOGS",
+						},
+					},
+                    {
+						{
+							capacity = 48,
+							cargoBay = {
+								bbMax = { 6.24, 1.4, 3.25, },
+								bbMin = { -6.16, -1.4, 1.2, },
+								cargoFormat = "",
+								childId = 1,
+								gridSize = { 6, 2 },
+								sizePolicy = "BEST_FIT",
+								type = "DISCRETE",
+							},
+							type = "PLANKS",
+						},
+					},
+                    {
+						{
+							capacity = 48,
+							cargoBay = {
+								bbMax = { 6.24, 1.4, 3.25, },
+								bbMin = { -6.16, -1.4, 1.2, },
+								cargoFormat = "",
+								childId = 1,
+								gridSize = { 4, 2 },
+								sizePolicy = "BEST_FIT",
+								type = "DISCRETE",
+							},
+							type = "STEEL",
+						},
+					},
+                    {
+						{
+							capacity = 48,
+							cargoBay = {
+								bbMax = { 6.24, 1.4, 3.25, },
+								bbMin = { -6.16, -1.4, 1.2, },
+								cargoFormat = "",
+								childId = 1,
+								gridSize = { 5, 1 },
+								sizePolicy = "BEST_FIT",
+								type = "DISCRETE",
+							},
+							type = "MACHINES",
+						},
+					},
+                    {
+						{
+							capacity = 48,
+							cargoBay = {
+								bbMax = { 6.24, 1.4, 3.25, },
+								bbMin = { -6.16, -1.4, 1.2, },
+								cargoFormat = "",
+								childId = 1,
+								gridSize = { 8, 2 },
+								sizePolicy = "BEST_FIT",
+								type = "DISCRETE",
+							},
+							type = "TOOLS",
+						},
+					},
+                    {
+						{
+							capacity = 48,
+							cargoBay = {
+								bbMax = { 6.24, 1.4, 3.25, },
+								bbMin = { -6.16, -1.4, 1.2, },
+								cargoFormat = "",
+								childId = 1,
+								gridSize = { 5, 1 },
+								sizePolicy = "BEST_FIT",
+								type = "DISCRETE",
+							},
+							type = "GOODS",
+						},
+					},
+                    {
+						{
+							capacity = 48,
+							cargoBay = {
+								bbMax = { 6.24, 1.4, 3.25, },
+								bbMin = { -6.16, -1.4, 1.2, },
+								cargoFormat = "",
+								childId = 1,
+								gridSize = { 5, 1 },
+								sizePolicy = "BEST_FIT",
+								type = "DISCRETE",
+							},
+							type = "CONSTRUCTION_MATERIALS",
+						},
+					},
+				}, 
+			}, 
+			loadSpeed = 4,
+			maxVolume = 37,
+			maxWeight = 39,
+			multipleUnitOnly = false,
+			groupFileName = "vehicle/waggon/Kbs442/menu_Kbs442.mdl",
+			reversible = false,
+		},
+	},
+	version = 1,
+}
+end
