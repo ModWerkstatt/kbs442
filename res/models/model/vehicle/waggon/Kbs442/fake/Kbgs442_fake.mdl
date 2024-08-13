@@ -386,255 +386,32 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ },
 											{ 0 },	
                                         },
 									},
                                     {
 										slotLevels = {
-											{ },
-											{ 1, },	
 											{ 1, 2, },	
                                         },
 									},
-								},
-							},
-							type = "GOODS",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
                                     {
 										slotLevels = {
-											{ },
-											{ 3, },	
 											{ 3, 4, },	
                                         },
 									},
-								},
-							},
-							type = "OIL",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-                                    {
-										slotLevels = {
-											{ },
-											{ 3, },	
-											{ 3, 4, },	
-                                        },
-									},
-								},
-							},
-							type = "CRUDE",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-                                    {
-										slotLevels = {
-											{ },
-											{ 3, },	
-											{ 3, 4, },	
-                                        },
-									},
-								},
-							},
-							type = "FUEL",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
 									{
 										slotLevels = {
-											{ },
-											{ 0 },	
-                                        },
-									},
-                                    {
-										slotLevels = {
-											{ },
-											{ 1, },	
-											{ 1, 2, },	
-                                        },
-									},
-								},
-							},
-							type = "GRAIN",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 0 },	
-                                        },
-									},
-                                    {
-										slotLevels = {
-											{ },
-											{ 1, },	
-											{ 1, 2, },	
-                                        },
-									},
-								},
-							},
-							type = "CONSTRUCTION_MATERIALS",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 0 },	
-                                        },
-									},
-                                    {
-										slotLevels = {
-											{ },
-											{ 1, },	
-											{ 1, 2, },	
-                                        },
-									},
-								},
-							},
-							type = "LOGS",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 0 },	
-                                        },
-									},
-                                    {
-										slotLevels = {
-											{ },
-											{ 1, },	
-											{ 1, 2, },	
-                                        },
-									},
-								},
-							},
-							type = "PLANKS",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
 											{ 5 },	
                                         },
 									},
                                     {
 										slotLevels = {
-											{ },
-											{ 6, },	
 											{ 6, 7, },	
                                         },
 									},
 								},
 							},
-							type = "FOOD",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 0 },	
-                                        },
-									},
-                                    {
-										slotLevels = {
-											{ },
-											{ 1, },	
-											{ 1, 2, },	
-                                        },
-									},
-								},
-							},
-							type = "TOOLS",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 0 },	
-                                        },
-									},
-                                    {
-										slotLevels = {
-											{ },
-											{ 1, },	
-											{ 1, 2, },	
-                                        },
-									},
-								},
-							},
-							type = "MACHINES",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 0 },	
-                                        },
-									},
-                                    {
-										slotLevels = {
-											{ },
-											{ 1, },	
-											{ 1, 2, },	
-                                        },
-									},
-								},
-							},
-							type = "PLASTIC",
+							type = "LOGS",
 						},
 					},
 				}, 
@@ -643,7 +420,7 @@ return {
 			maxVolume = 37,
 			maxWeight = 39,
 			multipleUnitOnly = false,
-			groupFileName = "vehicle/waggon/Kbs442/menu_Kbs442.mdl",
+			groupFileName = "vehicle/waggon/Kbs442/fake/menu_Kbs442_fake.mdl",
 			reversible = false,
 		},
 	},

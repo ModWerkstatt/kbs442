@@ -24,9 +24,15 @@ return {
 		["mod_name"] = "Rlmms 56 / Kbs 442 / Kbgs 442 Rungenwagen",
 		["mod_desc"] = "Ab 1958 beschaffte die Deutsche Bundesbahn zweiachsige Flachwagen nach UIC-Standard. Die Wagen mit Rungen werden als Rlmms 56 bezeichnet, die ohne Rungen als Rlmmso 56. Die Wagen dienen vor allem zur Beförderung von Fahrzeugen und Gütern mit großem Raumbedarf. Bis 2020 werden alle Wagen ausgemustert.",
 
+		["option_fake_wagen_desc"] = "Sollen die Fake-Versionen des Kbs 442 verfügbar sein im Spiel?",
+		["Fake_kbs442_wagen"] = "Fake-Versionen aktivieren?",
+		
         ["Kbs442_menu"] = "Rlmms 56 / Kbs 442 / Kbgs 442",
-		["Kbgs442_mit_name"] = "Kbgs 442 mit Rungen DB (1978)",
-        ["Kbgs442_name"] = "Kbgs 442 DB (1978)",
+		
+		["Kbgs442_mit_name"] = "Kbgs 442 mit Rungen DB - Containebeladung (1978)",
+		["Kbgs442_mit_2_name"] = "Kbgs 442 mit Rungen DB - Containebeladung (1982)",
+        ["Kbgs442_name"] = "Kbgs 442 DB - Containebeladung (1978)",
+        ["Kbgs442_2_name"] = "Kbgs 442 DB - Containebeladung (1982)",		
 		["Kbgs442_desc"] = "Damit kurzfristig genügend Wagen für den Containertransport zur Verfügung stehen, werden 500 Kbs 442 mit Container-Arretierungen versehen und in Kbgs 442 umgezeichnet. Diese blieben bis 1994 im Einsatz.",
         ["Rlmms56_name"] = "Rlmms 56 DB (1958)",
         ["Rlmms56_desc"] = "Die zweiachsigen Wagen mit Rungen werden als Rlmms 56 geführt bis 1965. Sie dienen zum Transport von Fahrzeugen und Gütern mit großem Raumbedarf.",
@@ -39,6 +45,9 @@ return {
         ["Kls442_name"] = "Kls 442 DB (1965)",
         ["Kls442_desc"] = "Nach UIC-Standard wurden die Rlmmso 56 ab 1965 als Kls 442 umgezeichnet.",
         ["Kls442_dbag_name"] = "Kls 442 DB AG (1994)",
+		
+		--- Fake ---
+        ["Kbs442_menu_fake"] = "Fake - Rlmms 56 / Kbs 442 / Kbgs 442",
 	},
 }
 end

@@ -191,113 +191,35 @@ return {
 			topSpeed = 27.777777778,
 			weight = 12.7,
 		},
+        cargoSlotProvider = {
+			slots = {	
+                {
+					models = {
+						"#SMALL",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.21, 1, },
+					randomId = 0,
+				},
+            },
+        },
 		transportVehicle = {
 			carrier = "RAIL",
 			compartments = {
 				{
 					{
 						{
-							capacity = 48,
-							cargoBay = {
-								bbMax = { 6.24, 1.4, 3.25, },
-								bbMin = { -6.16, -1.4, 1.2, },
-								cargoFormat = "",
-								childId = 1,
-								gridSize = { 5 ,1 },
-								sizePolicy = "BEST_FIT",
-								type = "DISCRETE",
+							capacity = 4,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },	
+                                        },
+									},
+								},
 							},
 							type = "LOGS",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							cargoBay = {
-								bbMax = { 6.24, 1.4, 3.25, },
-								bbMin = { -6.16, -1.4, 1.2, },
-								cargoFormat = "",
-								childId = 1,
-								gridSize = { 6, 2 },
-								sizePolicy = "BEST_FIT",
-								type = "DISCRETE",
-							},
-							type = "PLANKS",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							cargoBay = {
-								bbMax = { 6.24, 1.4, 3.25, },
-								bbMin = { -6.16, -1.4, 1.2, },
-								cargoFormat = "",
-								childId = 1,
-								gridSize = { 4, 2 },
-								sizePolicy = "BEST_FIT",
-								type = "DISCRETE",
-							},
-							type = "STEEL",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							cargoBay = {
-								bbMax = { 6.24, 1.4, 3.25, },
-								bbMin = { -6.16, -1.4, 1.2, },
-								cargoFormat = "",
-								childId = 1,
-								gridSize = { 5, 1 },
-								sizePolicy = "BEST_FIT",
-								type = "DISCRETE",
-							},
-							type = "MACHINES",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							cargoBay = {
-								bbMax = { 6.24, 1.4, 3.25, },
-								bbMin = { -6.16, -1.4, 1.2, },
-								cargoFormat = "",
-								childId = 1,
-								gridSize = { 8, 2 },
-								sizePolicy = "BEST_FIT",
-								type = "DISCRETE",
-							},
-							type = "TOOLS",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							cargoBay = {
-								bbMax = { 6.24, 1.4, 3.25, },
-								bbMin = { -6.16, -1.4, 1.2, },
-								cargoFormat = "",
-								childId = 1,
-								gridSize = { 5, 1 },
-								sizePolicy = "BEST_FIT",
-								type = "DISCRETE",
-							},
-							type = "GOODS",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							cargoBay = {
-								bbMax = { 6.24, 1.4, 3.25, },
-								bbMin = { -6.16, -1.4, 1.2, },
-								cargoFormat = "",
-								childId = 1,
-								gridSize = { 5, 1 },
-								sizePolicy = "BEST_FIT",
-								type = "DISCRETE",
-							},
-							type = "CONSTRUCTION_MATERIALS",
 						},
 					},
 				}, 
@@ -306,7 +228,7 @@ return {
 			maxVolume = 37,
 			maxWeight = 39,
 			multipleUnitOnly = false,
-			groupFileName = "vehicle/waggon/Kbs442/menu_Kbs442.mdl",
+			groupFileName = "vehicle/waggon/Kbs442/fake/menu_Kbs442_fake.mdl",
 			reversible = false,
 		},
 	},

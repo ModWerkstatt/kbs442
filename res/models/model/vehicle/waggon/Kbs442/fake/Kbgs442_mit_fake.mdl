@@ -1,8 +1,8 @@
 function data()
 return {
 	boundingInfo = {
-		bbMax = { 6.88035, 1.5543934106827, 3.9691610336304, },
-		bbMin = { -6.80542, -1.5543934106827, -1.4061318635941, },
+		bbMax = { 6.87535, 1.5543934106827, 3.9691610336304, },
+		bbMin = { -6.80142, -1.5543934106827, -1.4061318635941, },
 	},
 	collider = {
 		params = {
@@ -17,29 +17,36 @@ return {
 				children = {
 					{
 						_meshId = 1,
-						materials = { "vehicle/waggon/Kbs442/Kbgs442.mtl", },
+						materials = { "vehicle/waggon/Kbs442/Kbgs442_mit.mtl", },
 						mesh = "vehicle/waggon/Kbs442/rumpf_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						_meshId = 2,
-						materials = { "vehicle/waggon/Kbs442/Kbgs442.mtl", },
+						materials = { "vehicle/waggon/Kbs442/Kbgs442_mit.mtl", },
 						mesh = "vehicle/waggon/Kbs442/rad_lod0.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.469196, 1, },
 					},
 					{
 						_meshId = 3,
-						materials = { "vehicle/waggon/Kbs442/Kbgs442.mtl", },
+						materials = { "vehicle/waggon/Kbs442/Kbgs442_mit.mtl", },
 						mesh = "vehicle/waggon/Kbs442/rad_lod0.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0, 0.469196, 1, },
 					},
 					{
 						_meshId = 4,
-						materials = { "vehicle/waggon/Kbs442/Kbgs442.mtl", },
+						materials = { "vehicle/waggon/Kbs442/Kbgs442_mit.mtl", },
 						mesh = "vehicle/waggon/Kbs442/halter_lod0.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 5,
+						materials = { "vehicle/waggon/Kbs442/Kbgs442_mit.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rungen_lod0.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -68,24 +75,31 @@ return {
 				children = {
 					{
 						_meshId = 1,
-						materials = { "vehicle/waggon/Kbs442/Kbgs442.mtl", },
+						materials = { "vehicle/waggon/Kbs442/Kbgs442_mit.mtl", },
 						mesh = "vehicle/waggon/Kbs442/rumpf_lod1.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						_meshId = 2,
-						materials = { "vehicle/waggon/Kbs442/Kbgs442.mtl", },
+						materials = { "vehicle/waggon/Kbs442/Kbgs442_mit.mtl", },
 						mesh = "vehicle/waggon/Kbs442/rad_lod1.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.469196, 1, },
 					},
 					{
 						_meshId = 3,
-						materials = { "vehicle/waggon/Kbs442/Kbgs442.mtl", },
+						materials = { "vehicle/waggon/Kbs442/Kbgs442_mit.mtl", },
 						mesh = "vehicle/waggon/Kbs442/rad_lod1.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0, 0.469196, 1, },
+					},
+					{
+						_meshId = 4,
+						materials = { "vehicle/waggon/Kbs442/Kbgs442_mit.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rungen_lod1.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 				},
 				name = "RootNode",
@@ -100,24 +114,31 @@ return {
 				children = {
 					{
 						_meshId = 1,
-						materials = { "vehicle/waggon/Kbs442/Kbgs442.mtl", },
+						materials = { "vehicle/waggon/Kbs442/Kbgs442_mit.mtl", },
 						mesh = "vehicle/waggon/Kbs442/rumpf_lod2.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						_meshId = 2,
-						materials = { "vehicle/waggon/Kbs442/Kbgs442.mtl", },
+						materials = { "vehicle/waggon/Kbs442/Kbgs442_mit.mtl", },
 						mesh = "vehicle/waggon/Kbs442/rad_lod2.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.469196, 1, },
 					},
 					{
 						_meshId = 3,
-						materials = { "vehicle/waggon/Kbs442/Kbgs442.mtl", },
+						materials = { "vehicle/waggon/Kbs442/Kbgs442_mit.mtl", },
 						mesh = "vehicle/waggon/Kbs442/rad_lod2.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0, 0.469196, 1, },
+					},
+					{
+						_meshId = 5,
+						materials = { "vehicle/waggon/Kbs442/Kbgs442_mit.mtl", },
+						mesh = "vehicle/waggon/Kbs442/rungen_lod2.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 				},
 				name = "RootNode",
@@ -138,7 +159,7 @@ return {
 			priceScale = 1,
 		},
 		description = {
-			name = _("Kbgs442_name"),
+			name = _("Kbgs442_mit_name"),
             description = _("Kbgs442_desc"),
 		},
 		maintenance = {
@@ -154,7 +175,7 @@ return {
 			configs = {
 				{
 					axles = { "vehicle/waggon/Kbs442/rad_lod0.msh", },
-                    backForwardParts = { 5, 6, },
+                    backForwardParts = { 6, 7, },
 				},
                 {
 					axles = { "vehicle/waggon/Kbs442/rad_lod1.msh", },
@@ -386,255 +407,32 @@ return {
 								configurations = {
 									{
 										slotLevels = {
-											{ },
 											{ 0 },	
                                         },
 									},
                                     {
 										slotLevels = {
-											{ },
-											{ 1, },	
 											{ 1, 2, },	
                                         },
 									},
-								},
-							},
-							type = "GOODS",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
                                     {
 										slotLevels = {
-											{ },
-											{ 3, },	
 											{ 3, 4, },	
                                         },
 									},
-								},
-							},
-							type = "OIL",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-                                    {
-										slotLevels = {
-											{ },
-											{ 3, },	
-											{ 3, 4, },	
-                                        },
-									},
-								},
-							},
-							type = "CRUDE",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-                                    {
-										slotLevels = {
-											{ },
-											{ 3, },	
-											{ 3, 4, },	
-                                        },
-									},
-								},
-							},
-							type = "FUEL",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
 									{
 										slotLevels = {
-											{ },
-											{ 0 },	
-                                        },
-									},
-                                    {
-										slotLevels = {
-											{ },
-											{ 1, },	
-											{ 1, 2, },	
-                                        },
-									},
-								},
-							},
-							type = "GRAIN",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 0 },	
-                                        },
-									},
-                                    {
-										slotLevels = {
-											{ },
-											{ 1, },	
-											{ 1, 2, },	
-                                        },
-									},
-								},
-							},
-							type = "CONSTRUCTION_MATERIALS",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 0 },	
-                                        },
-									},
-                                    {
-										slotLevels = {
-											{ },
-											{ 1, },	
-											{ 1, 2, },	
-                                        },
-									},
-								},
-							},
-							type = "LOGS",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 0 },	
-                                        },
-									},
-                                    {
-										slotLevels = {
-											{ },
-											{ 1, },	
-											{ 1, 2, },	
-                                        },
-									},
-								},
-							},
-							type = "PLANKS",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
 											{ 5 },	
                                         },
 									},
                                     {
 										slotLevels = {
-											{ },
-											{ 6, },	
 											{ 6, 7, },	
                                         },
 									},
 								},
 							},
-							type = "FOOD",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 0 },	
-                                        },
-									},
-                                    {
-										slotLevels = {
-											{ },
-											{ 1, },	
-											{ 1, 2, },	
-                                        },
-									},
-								},
-							},
-							type = "TOOLS",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 0 },	
-                                        },
-									},
-                                    {
-										slotLevels = {
-											{ },
-											{ 1, },	
-											{ 1, 2, },	
-                                        },
-									},
-								},
-							},
-							type = "MACHINES",
-						},
-					},
-                    {
-						{
-							capacity = 48,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 0 },	
-                                        },
-									},
-                                    {
-										slotLevels = {
-											{ },
-											{ 1, },	
-											{ 1, 2, },	
-                                        },
-									},
-								},
-							},
-							type = "PLASTIC",
+							type = "LOGS",
 						},
 					},
 				}, 
@@ -643,7 +441,7 @@ return {
 			maxVolume = 37,
 			maxWeight = 39,
 			multipleUnitOnly = false,
-			groupFileName = "vehicle/waggon/Kbs442/menu_Kbs442.mdl",
+			groupFileName = "vehicle/waggon/Kbs442/fake/menu_Kbs442_fake.mdl",
 			reversible = false,
 		},
 	},
