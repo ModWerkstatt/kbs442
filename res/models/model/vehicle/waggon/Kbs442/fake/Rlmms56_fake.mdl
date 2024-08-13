@@ -266,7 +266,82 @@ return {
 									},
 								},
 							},
+							type = "PLANKS",
+						},
+					},
+					{
+						{
+							capacity = 4,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 1, 2, 3, 4 },	
+                                        },
+									},
+								},
+							},
+							type = "STEEL",
+						},
+					},
+					{
+						{
+							capacity = 4,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 1, 2, 3, 4 },	
+                                        },
+									},
+								},
+							},
+							type = "MACHINES",
+						},
+					},
+					{
+						{
+							capacity = 4,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 1, 2, 3, 4 },	
+                                        },
+									},
+								},
+							},
 							type = "TOOLS",
+						},
+					},
+					{
+						{
+							capacity = 4,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 1, 2, 3, 4 },	
+                                        },
+									},
+								},
+							},
+							type = "GOODS",
+						},
+					},
+					{
+						{
+							capacity = 4,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0, 1, 2, 3, 4 },	
+                                        },
+									},
+								},
+							},
+							type = "CONSTRUCTION_MATERIALS",
 						},
 					},
 				}, 
