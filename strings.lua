@@ -48,6 +48,10 @@ return {
 		
 		--- Fake ---
         ["Kbs442_menu_fake"] = "Fake - Rlmms 56 / Kbs 442 / Kbgs 442",
+		["Kbgs442_mit_name"] = "Fake - Kbgs 442 mit Rungen DB - Containebeladung (1978)",
+		["Kbgs442_mit_2_name"] = "Fake - Kbgs 442 mit Rungen DB - Containebeladung (1982)",
+        ["Kbgs442_name"] = "Fake - Kbgs 442 DB - Containebeladung (1978)",
+        ["Kbgs442_2_name"] = "Fake - Kbgs 442 DB - Containebeladung (1982)",
 	},
 }
 end

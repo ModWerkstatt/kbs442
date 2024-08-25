@@ -159,7 +159,7 @@ return {
 			priceScale = 1,
 		},
 		description = {
-			name = _("Kbgs442_mit_2_name"),
+			name = _("Kbgs442_mit_2_name_fake"),
             description = _("Kbgs442_desc"),
 		},
 		maintenance = {
