@@ -34,17 +34,14 @@ return {
 	local params = modParams[getCurrentModId()]
 
         local hidden = {
-			["Kbgs442_fake.mdl"] = true,
-			["Kbgs442_fake.mdl"] = true,
-			["Kbgs442_fake.mdl"] = true,
-			["Kbgs442_fake.mdl"] = true,
-			["Kbgs442_fake.mdl"] = true,
+			["442_fake.mdl"] = true,
+			["442_2_fake.mdl"] = true,
+			["442_mit_fake.mdl"] = true,
+			["442_mit_2_fake.mdl"] = true,
         }
 
 		local modelFilter = function(fileName, data)
 			local modelName = fileName:match('/Kbgs([^/]*.mdl)')
-							or fileName:match('/Kbs([^/]*.mdl)')
-							or fileName:match('/Kls([^/]*.mdl)')
 			return (modelName==nil or hidden[modelName]~=true)
 		end
 
