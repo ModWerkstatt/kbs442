@@ -189,7 +189,7 @@ return {
 				name = "mw_leicht",
 			},
 			topSpeed = 27.777777778,
-			weight = 12.7,
+			weight = 39,
 		},
         cargoSlotProvider = {
 			slots = {	
