@@ -423,7 +423,7 @@ return {
 				{
 					{
 						{
-							capacity = 48,
+							capacity = 4,
 							customCargoModels = {
 								configurations = {
 									{
