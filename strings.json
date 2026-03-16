@@ -1,0 +1,52 @@
+{
+	"en": {
+		
+        "menu_kbs442" : "Rlmms 56 / Kbs 442 / Kbgs 442",
+		
+        "fake": "Fake - ",
+		
+        "fake_kbs442" : "Enable Fake Versions?",
+        "tooltip_fake_kbs442" : "Should the fake versions be available in the game?",
+		
+		"kbgs442_mit" : "Kbgs 442 with stakes DB",
+        "kbgs442" : "Kbgs 442 DB",
+		"kbgs442_desc" : "In order to have enough wagons available at short notice for container transport, 500 Kbs 442 are fitted with container locks and re-designated as Kbgs 442. These remained in service until 1994.",
+        "rlmms56" : "Rlmms 56 DB",
+        "rlmms56_desc" : "The two-axle wagons with stakes are listed as Rlmms 56 until 1965. They are used to transport vehicles and goods with large space requirements.",
+        "kbs442" : "Kbs 442 DB)",
+        "kbs442_desc" : "According to UIC standard, the Rlmms 56 were re-designated as Kbs 442 from 1965.",
+        "kbs442_dbag" : "Kbs 442 DB AG",
+        "kbs442_kls442_dbag_desc" : "Deutsche Bahn took over the Kbs 442 and Kls 442 wagons and continued to use them until 2020.",
+        "rlmmso56" : "Rlmmso 56 DB",
+        "rlmmso56_desc" : "The two-axle wagons without stakes are listed as Rlmmso 56 until 1965. They are used to transport vehicles and goods with large space requirements.",
+        "kls442" : "Kls 442 DB",
+        "kls442_desc" : "According to UIC standard, the Rlmmso 56 were re-designated as Kls 442 from 1965.",
+        "kls442_dbag" : "Kls 442 DB AG"
+		
+	},
+	"de": {
+		
+        "menu_kbs442" : "Rlmms 56 / Kbs 442 / Kbgs 442",
+		
+        "fake": "Fake - ",
+		
+        "fake_kbs442" : "Fake-Versionen aktivieren?",
+        "tooltip_fake_kbs442" : "Sollen die Fake-Versionen verfügbar sein im Spiel?",
+		
+		"kbgs442_mit" : "Kbgs 442 mit Rungen DB",
+        "kbgs442" : "Kbgs 442 DB",	
+		"kbgs442_desc" : "Damit kurzfristig genügend Wagen für den Containertransport zur Verfügung stehen, werden 500 Kbs 442 mit Container-Arretierungen versehen und in Kbgs 442 umgezeichnet. Diese blieben bis 1994 im Einsatz.",
+        "rlmms56" : "Rlmms 56 DB",
+        "rlmms56_desc" : "Die zweiachsigen Wagen mit Rungen werden als Rlmms 56 geführt bis 1965. Sie dienen zum Transport von Fahrzeugen und Gütern mit großem Raumbedarf.",
+        "kbs442" : "Kbs 442 DB",
+        "kbs442_desc" : "Nach UIC-Standard wurden die Rlmms 56 ab 1965 als Kbs 442 umgezeichnet.",
+        "kbs442_dbag" : "Kbs 442 DB AG",
+        "kbs442_kls442_dbag_desc" : "Die Deutsche Bahn AG übernahm die Kbs 442 und Kls 442-Wagen und setzte sie noch bis zum Jahr 2020 ein.",
+        "rlmmso56" : "Rlmmso 56 DB",
+        "rlmmso56_desc" : "Die zweiachsigen Wagen ohne Rungen werden als Rlmmso 56 geführt bis 1965. Sie dienen zum Transport von Fahrzeugen und Gütern mit großem Raumbedarf.",
+        "kls442" : "Kls 442 DB",
+        "kls442_desc" : "Nach UIC-Standard wurden die Rlmmso 56 ab 1965 als Kls 442 umgezeichnet.",
+        "kls442_dbag" : "Kls 442 DB AG"
+
+	}
+}

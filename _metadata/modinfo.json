@@ -1,0 +1,22 @@
+{
+    "name": "Rlmms 56 / Kbs 442 / Kbgs 442 Stake cars",
+    "summary": "This mod includes 9 different paint jobs.",
+    "description": "From 1958, the Deutsche Bundesbahn procured two-axle flat wagons according to the UIC standard. The wagons with stakes are designated Rlmms 56, those without stakes Rlmmso 56. The wagons are mainly used to transport vehicles and goods with large space requirements. All wagons will be taken out of service by 2020.",
+    "localization" : {
+        "de": {
+            "name": "Rlmms 56 / Kbs 442 / Kbgs 442 Rungenwagen",
+            "summary": "In diesem Mod sind 9 verschiedene Lackierungen enthalten.",
+            "description": "Ab 1958 beschaffte die Deutsche Bundesbahn zweiachsige Flachwagen nach UIC-Standard. Die Wagen mit Rungen werden als Rlmms 56 bezeichnet, die ohne Rungen als Rlmmso 56. Die Wagen dienen vor allem zur Beförderung von Fahrzeugen und Gütern mit großem Raumbedarf. Bis 2020 werden alle Wagen ausgemustert."
+        }
+    },
+    "authors": [
+        {
+            "name": "Modwerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Wagon"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/rlmms-rlmmso-56-kbs-kls-442"
+}

@@ -1,0 +1,75 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 3.0499999523162841796875, 1.21000003814697265625, 2.599999904632568359375, },
+			bbMin = { -3.0499999523162841796875, -1.21000003814697265625, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 3.0499999523162841796875, 1.21000003814697265625, 1.2999999523162841796875, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2999999523162841796875, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+							name = "a1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 200,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+							name = "a1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 200,
+				visibleTo = 500,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
+							name = "a1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 500,
+				visibleTo = 1200,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1958,
+				yearTo = 0,
+			},
+			cost = { 
+				price = 500,
+			},
+		},
+		version = 2,
+	}
+end
