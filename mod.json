@@ -4,8 +4,8 @@
             "loadBefore": true,
             "mod": {
                 "modId": "mw_basis",
-                "revisionMax": -1,
-                "revisionMin": 1
+                "revisionMin": 1,
+                "revisionMax": -1
             },
             "modInfo": {
                 "displayName": "ModWerkstatt Base Mod",
