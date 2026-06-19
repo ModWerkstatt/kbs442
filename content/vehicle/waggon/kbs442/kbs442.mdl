@@ -1,8 +1,8 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 6.8803501129150390625, 1.55439341068267822265625, 3.96916103363037109375, },
-			bbMin = { -6.805419921875, -1.55439341068267822265625, -1.40613186359405517578125, },
+			bbMax = { 6.87534999847412109375, 1.55439341068267822265625, 3.96916103363037109375, },
+			bbMin = { -6.8014202117919921875, -1.55439341068267822265625, -1.40613186359405517578125, },
 		},
 		collider = { 
 			params = { 
@@ -16,14 +16,20 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Kbgs442.mtl", },
+							materials = { "mat/Kbs442.mtl", },
 							mesh = "msh/rumpf_lod0.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Kbgs442.mtl", },
+							materials = { "mat/Kbs442.mtl", },
 							mesh = "msh/halter_lod0.msh",
+							name = "rad",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Kbs442.mtl", },
+							mesh = "msh/rungen_lod0.msh",
 							name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -138,9 +144,15 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Kbgs442.mtl", },
+							materials = { "mat/Kbs442.mtl", },
 							mesh = "msh/rumpf_lod1.msh",
 							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Kbs442.mtl", },
+							mesh = "msh/rungen_lod1.msh",
+							name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -166,7 +178,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Kbgs442.mtl", },
+							materials = { "mat/Kbs442.mtl", },
 							mesh = "msh/rumpf_lod2.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -193,15 +205,15 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 1978,
-				yearTo = 1982,
+				yearFrom = 1965,
+				yearTo = 1994,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
-				description = _("kbgs442_desc"),
-				name = _("kbgs442"),
+				description = _("kbs442_desc"),
+				name = _("kbs442"),
 			},
 			emissions = { 
 				noise = { 
@@ -471,10 +483,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_kbs442.mdl",
 				loadSpeed = 4,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,

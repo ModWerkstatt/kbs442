@@ -16,7 +16,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Kls442.mtl", },
+							materials = { "mat/Rlmmso56.mtl", },
 							mesh = "msh/rumpf_lod0.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -132,7 +132,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Kls442.mtl", },
+							materials = { "mat/Rlmmso56.mtl", },
 							mesh = "msh/rumpf_lod1.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -160,7 +160,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Kls442.mtl", },
+							materials = { "mat/Rlmmso56.mtl", },
 							mesh = "msh/rumpf_lod2.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -187,15 +187,15 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 1965,
-				yearTo = 1994,
+				yearFrom = 1958,
+				yearTo = 1965,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
-				description = _("kls442_desc"),
-				name = _("kls442"),
+				description = _("rlmmso56_desc"),
+				name = _("rlmmso56"),
 			},
 			emissions = { 
 				noise = { 
@@ -465,10 +465,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_kbs442.mdl",
 				loadSpeed = 4,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,

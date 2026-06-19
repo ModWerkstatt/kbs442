@@ -16,9 +16,21 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Rlmmso56.mtl", },
+							materials = { "mat/Kbs442_dbag.mtl", },
 							mesh = "msh/rumpf_lod0.msh",
 							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Kbs442_dbag.mtl", },
+							mesh = "msh/halter_lod0.msh",
+							name = "rad",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Kbs442_dbag.mtl", },
+							mesh = "msh/rungen_lod0.msh",
+							name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -132,10 +144,16 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Rlmmso56.mtl", },
+							materials = { "mat/Kbs442_dbag.mtl", },
 							mesh = "msh/rumpf_lod1.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/Kbs442_dbag.mtl", },
+							mesh = "msh/rad_lod1.msh",
+							name = "rad",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.4691959917545318603515625, 1, },
 						},
 						{ 
 							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
@@ -160,7 +178,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Rlmmso56.mtl", },
+							materials = { "mat/Kbs442_dbag.mtl", },
 							mesh = "msh/rumpf_lod2.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -187,15 +205,15 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 1958,
-				yearTo = 1965,
+				yearFrom = 1994,
+				yearTo = 2020,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
-				description = _("rlmmso56_desc"),
-				name = _("rlmmso56"),
+				description = _("kbs442_dbag_desc"),
+				name = _("kbs442_dbag"),
 			},
 			emissions = { 
 				noise = { 
@@ -465,10 +483,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_kbs442.mdl",
 				loadSpeed = 4,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,

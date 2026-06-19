@@ -1,8 +1,8 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 6.87534999847412109375, 1.55439341068267822265625, 3.96916103363037109375, },
-			bbMin = { -6.8014202117919921875, -1.55439341068267822265625, -1.40613186359405517578125, },
+			bbMax = { 6.8803501129150390625, 1.55439341068267822265625, 3.96916103363037109375, },
+			bbMin = { -6.805419921875, -1.55439341068267822265625, -1.40613186359405517578125, },
 		},
 		collider = { 
 			params = { 
@@ -16,20 +16,14 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Rlmms56.mtl", },
+							materials = { "mat/Kbgs442.mtl", },
 							mesh = "msh/rumpf_lod0.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Rlmms56.mtl", },
+							materials = { "mat/Kbgs442.mtl", },
 							mesh = "msh/halter_lod0.msh",
-							name = "rad",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Rlmms56.mtl", },
-							mesh = "msh/rungen_lod0.msh",
 							name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -144,15 +138,9 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Rlmms56.mtl", },
+							materials = { "mat/Kbgs442.mtl", },
 							mesh = "msh/rumpf_lod1.msh",
 							name = "body",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Rlmms56.mtl", },
-							mesh = "msh/rungen_lod1.msh",
-							name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -178,7 +166,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Rlmms56.mtl", },
+							materials = { "mat/Kbgs442.mtl", },
 							mesh = "msh/rumpf_lod2.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -205,15 +193,15 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 1958,
-				yearTo = 1965,
+				yearFrom = 1978,
+				yearTo = 1982,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
-				description = _("rlmms56_desc"),
-				name = _("rlmms56"),
+				description = _("kbgs442_desc"),
+				name = _("kbgs442"),
 			},
 			emissions = { 
 				noise = { 
@@ -247,6 +235,168 @@ return {
 							sizePolicy = "BEST_FIT",
 							type = "DISCRETE",
 						},
+					},
+					bay_2 = { 
+						cargoBay = { 
+							bbMax = { 6.2399997711181640625, 1.42999994754791259765625, 1.41999995708465576171875, },
+							bbMin = { -6.159999847412109375, -1.42999994754791259765625, 1.2000000476837158203125, },
+							cargoFormats = { "MEDIUM4x1", },
+							childId = "body",
+							gridSize = { 8, 2, },
+							sizePolicy = "STRETCH_HEIGHT_SCALEY",
+							type = "LEVEL",
+						},
+					},
+					slots_0 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ },
+									{ 0, },
+									{ 0, 1, },
+									{ 0, 1, 2, },
+									{ 0, 1, 2, 3, },
+									{ 0, 1, 2, 3, 4, },
+									{ 0, 1, 2, 3, 4, 5, },
+									{ 0, 1, 2, 3, 4, 5, 6, },
+									{ 0, 1, 2, 3, 4, 5, 6, 7, },
+									{ 0, 1, 2, 3, 4, 5, 6, 7, 8, },
+									{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, },
+									{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, },
+									{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, },
+									{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, },
+									{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, },
+									{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, },
+									{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, },
+									{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, },
+									{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, },
+									{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, },
+									{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, },
+								},
+							},
+						},
+					},
+				},
+				slots = {
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.5, 0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.900000095367431640625, -0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.30000019073486328125, 0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.7000000476837158203125, -0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.099999904632568359375, 0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.5, -0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.89999997615814208984375, 0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2999999523162841796875, -0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.699999988079071044921875, 0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.100000001490116119384765625, -0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.5, 0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.10000002384185791015625, -0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.60000002384185791015625, 0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.2000000476837158203125, -0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.7999999523162841796875, 0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.400000095367431640625, -0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.599999904632568359375, -0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.19999980926513671875, 0.20000000298023223876953125, 1.75, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "load_radsatz.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.7600002288818359375, -0.20000000298023223876953125, 1.75, 1, },
 					},
 				},
 			},
@@ -282,7 +432,7 @@ return {
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "FLATBED", },
-										cargoTypesExcluded = { "::/cargos/sheet_metal/sheet_metal.cargo", },
+										cargoTypesExcluded = { "::/cargos/steel/steel.cargo", "::/cargos/sheet_metal/sheet_metal.cargo", },
 										cargoTypesIncluded = { },
 									},
 									loadIndicator = "bay_1",
@@ -290,13 +440,42 @@ return {
 								},
 								toHide = { },
 							},
+							{ 
+								cargoEntry = { 
+									capacity = 48,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/steel/steel.cargo", },
+									},
+									loadIndicator = "slots_0",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 40,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "BULK", },
+										cargoTypesExcluded = { "::/cargos/cement/cement.cargo", "::/cargos/fertilizer/fertilizer.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "bay_2",
+									seats = { },
+								},
+								toHide = { },
+							},
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_kbs442.mdl",
 				loadSpeed = 4,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,

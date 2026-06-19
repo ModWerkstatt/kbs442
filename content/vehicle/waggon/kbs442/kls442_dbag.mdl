@@ -16,21 +16,9 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Kbs442_dbag.mtl", },
+							materials = { "mat/Kls442_dbag.mtl", },
 							mesh = "msh/rumpf_lod0.msh",
 							name = "body",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Kbs442_dbag.mtl", },
-							mesh = "msh/halter_lod0.msh",
-							name = "rad",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Kbs442_dbag.mtl", },
-							mesh = "msh/rungen_lod0.msh",
-							name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -144,16 +132,10 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Kbs442_dbag.mtl", },
+							materials = { "mat/Kls442_dbag.mtl", },
 							mesh = "msh/rumpf_lod1.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Kbs442_dbag.mtl", },
-							mesh = "msh/rad_lod1.msh",
-							name = "rad",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.4691959917545318603515625, 1, },
 						},
 						{ 
 							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
@@ -178,7 +160,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Kbs442_dbag.mtl", },
+							materials = { "mat/Kls442_dbag.mtl", },
 							mesh = "msh/rumpf_lod2.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -212,8 +194,8 @@ return {
 				price = -1,
 			},
 			description = { 
-				description = _("kbs442_dbag_desc"),
-				name = _("kbs442_dbag"),
+				description = _("kls442_dbag_desc"),
+				name = _("kls442_dbag"),
 			},
 			emissions = { 
 				noise = { 
@@ -483,10 +465,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_kbs442.mdl",
 				loadSpeed = 4,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,
