@@ -37,7 +37,7 @@ return {
 			map_albedo = { 
 				fragmentSamplers = { 
 					albedoTex = { 
-						fileName = "tex/Kbs442_albedo.dds",
+						fileName = "tex/kbs442_albedo.dds",
 						type = "TWOD",
 					},
 				},
@@ -70,7 +70,7 @@ return {
 			map_metal_gloss_ao = { 
 				fragmentSamplers = { 
 					metalGlossAoTex = { 
-						fileName = "tex/Rlmms56_metal_gloss_ao.dds",
+						fileName = "tex/rlmms56_metal_gloss_ao.dds",
 						type = "TWOD",
 					},
 				},

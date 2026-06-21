@@ -16,13 +16,13 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Kbgs442.mtl", },
+							materials = { "mat/kbgs442.mtl", },
 							mesh = "msh/rumpf_lod0.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Kbgs442.mtl", },
+							materials = { "mat/kbgs442.mtl", },
 							mesh = "msh/halter_lod0.msh",
 							name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -138,7 +138,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Kbgs442.mtl", },
+							materials = { "mat/kbgs442.mtl", },
 							mesh = "msh/rumpf_lod1.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -166,7 +166,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Kbgs442.mtl", },
+							materials = { "mat/kbgs442.mtl", },
 							mesh = "msh/rumpf_lod2.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },

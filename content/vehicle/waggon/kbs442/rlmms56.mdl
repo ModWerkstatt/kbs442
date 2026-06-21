@@ -16,19 +16,19 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Rlmms56.mtl", },
+							materials = { "mat/rlmms56.mtl", },
 							mesh = "msh/rumpf_lod0.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Rlmms56.mtl", },
+							materials = { "mat/rlmms56.mtl", },
 							mesh = "msh/halter_lod0.msh",
 							name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Rlmms56.mtl", },
+							materials = { "mat/rlmms56.mtl", },
 							mesh = "msh/rungen_lod0.msh",
 							name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -144,13 +144,13 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Rlmms56.mtl", },
+							materials = { "mat/rlmms56.mtl", },
 							mesh = "msh/rumpf_lod1.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Rlmms56.mtl", },
+							materials = { "mat/rlmms56.mtl", },
 							mesh = "msh/rungen_lod1.msh",
 							name = "rad",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -178,7 +178,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Rlmms56.mtl", },
+							materials = { "mat/rlmms56.mtl", },
 							mesh = "msh/rumpf_lod2.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
